@@ -10,6 +10,7 @@ class CardGame:
     for card in cards:
       if card.value == 1:
         return True
+    return False  
 
 
   def highest_card(self, card1, card2):

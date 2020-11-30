@@ -17,7 +17,7 @@ class CardGameTest(unittest.TestCase):
         self.assertEqual("spades", self.card2.suit)
 
     def test_check_for_ace_in_cards(self):
-        self.assertEqual(None, self.game.check_for_ace(self.cards))
+        self.assertEqual(False, self.game.check_for_ace(self.cards))
 
     def test_check_for_ace_in_cards_with_ace(self):
         self.assertEqual(True, self.game.check_for_ace(self.cards_with_ace))
