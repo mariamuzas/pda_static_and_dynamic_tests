@@ -15,7 +15,7 @@ class CardGame:
     if card.value = 1:
     # True and False need to be first letter capitalize. 
       return true
-    # the colon is missing after the else statement
+    # there is no need of else statement, but the return for False needs to be outside the conditional for the loop that should be here keep looking through all the cards until it finds an ace, and don't stop as soon as hits a card that is not an ace. 
     else        
       return false
 
